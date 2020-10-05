@@ -12,7 +12,8 @@ plugins {
 }
 
 task stage () {
-    dependsOn 'eventregistration:assemble'
+     dependsOn 'eventregistration:assemble'
+
 }
 
 
